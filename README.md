@@ -24,7 +24,7 @@ ffmpeg可直接解码该文件中的视频流，也可将其转码后将每帧�
 
 本程序基于ffmpeg实现目标功能，但由于作者对于开源协议不熟悉，不知道该如何引用ffmpeg，就把ffmpeg的官网贴这里了（[https://ffmpeg.org/](https://ffmpeg.org/)），也请需要下载ffmpeg的各位去Usage中提到的网站下载，本项目中就不提供了。
 
-同样由于不熟悉开源协议，虽然本项目创建的时候选择了一个Apache协议，但并不知道如何操作。如果有需要基于本项目进行二次开发或者传播（虽然本项目并没有什么技术含量，自己从头写也很容易），请标注作者及出处。
+同样由于不熟悉开源协议，虽然本项目创建的时候选择了一个Apache协议，但并不知道如何操作。如果有需要基于本项目进行二次开发或者传播（虽然本项目并没有什么技术含量，自己从头写也很容易），请标注作者及出处（@RaruseReiji, [https://github.com/RaruseReiji/Extract_Copymanga.git](https://github.com/RaruseReiji/Extract_Copymanga.git)）。
 
 # Update
 V1.0.0：完成了基本逻辑，当系统path中存在ffmpeg时，可以在当前文件夹中仅存一个mkv文件时实现逐帧依据各自帧大小进行提取，会输出一个不自动删除的frame_info.log，输出图片为output%04d.png。
